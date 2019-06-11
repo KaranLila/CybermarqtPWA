@@ -8,7 +8,7 @@ import {Layout} from './components/Layout';
 import {NavigationBar} from './components/NavigationBar';
 import {Jumbotron} from './components/Jumbotron';
 
-
+// main app file
 
 class App extends Component {
   render(){

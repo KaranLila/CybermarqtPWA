@@ -7,15 +7,19 @@ const Styles = styled.div`
         background-color: #222;
     }
 
-    a, .navbar-brand, .navbar-nav .nav-link{
+     a.navbar-brand, a.navbar-nav, a.nav-link{
         color: #bbb;
 
         &:hover {
             color: white;
         }
     }
-`;
 
+    
+
+    
+`;
+// NavigationBar
 export const NavigationBar = () => (
     <Styles>
         <Navbar expand ="lg">

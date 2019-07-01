@@ -8,7 +8,7 @@ const Styles = styled.div`
             background: url(${AsiaImage}) no-repeat fixed bottom;
             background-size: cover;
             color: #efefef;
-            height: 200px;
+            height: 600px;
             position: relative;
             z-index: -2;
 
@@ -33,8 +33,8 @@ export const Jumbotron = () =>(
         <Jumbo fluid className="jumbo">
             <div className="overlay"></div>
             <Container>
-                <h1>Welcome</h1>
-                <p> Learn more from our global marketplace website Cybermarqt</p>
+                <h1>Cybermarqt</h1>
+                <p> Search it. Find it. Secure it.</p>
             </Container>
         </Jumbo>
     </Styles>

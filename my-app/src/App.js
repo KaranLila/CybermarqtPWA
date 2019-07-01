@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import {Home} from './Home';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"; //Routing is used for switching pages
+import {Home} from './Home'; // Imports the home page here from Home
 import {About} from './About';
 import {Contact} from './Contact';
 import {NoMatch} from './NoMatch';
@@ -10,6 +10,8 @@ import {Jumbotron} from './components/Jumbotron';
 
 // main app file
 
+// Switch element switches the routes and are props.children properties for the Layout function
+
 class App extends Component {
   render(){
     return(
@@ -18,7 +20,7 @@ class App extends Component {
           <NavigationBar/>
           <Jumbotron/>
         <Layout>
-          <Switch>
+          <Switch>                              
               <Route exact path="/"component={Home}/>
               <Route path="/about" component={About}/>
               <Route path="/contact" component={Contact}/>
